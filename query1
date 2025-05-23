@@ -4,3 +4,14 @@ SELECT DISTINCT CITY
 FROM STATION
 WHERE LEFT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U')
    OR RIGHT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U');
+
+
+LEFT() Function
+Purpose:
+Extracts a specified number of characters from the beginning (left side) of a string.
+LEFT(string, number_of_characters)
+
+RIGHT() Function
+Purpose:
+Extracts a specified number of characters from the end (right side) of a string.
+RIGHT(string, number_of_characters)
